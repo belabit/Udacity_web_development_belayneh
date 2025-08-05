@@ -1,3 +1,14 @@
 li { font-size: 1.5em;}
 .highlight{ background-color:yellow ; font-weight: bolder;color: red}
 .done{text-decoration: line-through}
+em{
+    font-weight:bold;
+    color:red;
+    font-style:normal;
+}
+me{
+    font-weight:bolder;
+    color:blue;
+    font-size:16pt;
+    font-style:italic;
+}
