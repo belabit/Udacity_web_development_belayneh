@@ -1,0 +1,66 @@
+li { font-size: 1.5em;}
+.highlight{ background-color:yellow ; font-weight: bolder;color: red}
+.done{text-decoration: line-through}
+em{
+    font-weight:bold;
+    color:red;
+    font-style:normal;
+}
+me{
+    font-weight:bolder;
+    color:blue;
+    font-size:16pt;
+    font-style:italic;
+}
+.box{
+    width:600px;
+    height:100px;
+}
+.container{
+    float: left;
+}
+.circle {
+    position: absolute;
+    top: 75px;      /* Y position (origin point) */
+    left: 225px;     /* X position (origin point) */
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 100%; /* Makes it a circle */
+}
+.circle2 {
+    position: absolute;
+    top: 84px;      /* Y position (origin point) */
+    left: 234px;     /* X position (origin point) */
+    width: 132px;
+    height: 132px;
+    background-color: yellow;
+    border-radius: 100%; /* Makes it a circle */
+}
+.green{
+    background-color:green;
+}
+.yellow{
+    background-color:yellow;
+}
+.red{
+    background-color:red;
+}
+.board{
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    background-color:#F0D9B5;
+    width: 50px;
+    height: 50px;
+}
+.black{
+    background-color: #B58863;
+    width: 50px;
+    height: 50px;
+}

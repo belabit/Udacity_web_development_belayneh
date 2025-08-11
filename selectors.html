@@ -1,22 +1,38 @@
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Selectors Example</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inconsolatia">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto mono">
     <style>
+
         .special {
-            color: purple;
+            font-family: 'Tangerine', serif;
+            font-size: 5em;
+            color: blue;
         }
-        p {
+        p{
+            font-family: 'Inconsolata', monospace;
             font-style: italic;
+            color: green;
         }
-        #important-information {
-            font-weight: bold;
+        .special1{
+            font-family: Roboto Mono, monospace;
+            font-size: 1.5em;
+            color: blue;
         }
+
     </style>
 </head>
 <body>
 
 <h1 class = "special">This header is special</h1>
 <p>A nice paragraph in italics.</p>
-<h1>This header isn't so special.</h1>
+<h1 class="special1">This header isn't so special.</h1>
 <p>And this paragraph will be in italics too!</p>
 <p id = "important-information">This paragraph needs to be italicized and bolded!</p>
 </body>
